@@ -600,6 +600,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .flex {
   display: flex;
 }
@@ -614,50 +618,8 @@ video {
   width: max-content;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-fit {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.min-w-max {
-  min-width: -webkit-max-content;
-  min-width: -moz-max-content;
-  min-width: max-content;
-}
-
-.min-w-fit {
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
-}
-
-.min-w-0 {
-  min-width: 0px;
-}
-
-.min-w-full {
-  min-width: 100%;
-}
-
 .max-w-md {
   max-width: 28rem;
-}
-
-.max-w-sm {
-  max-width: 24rem;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .max-w-fit {
@@ -731,16 +693,6 @@ video {
   border-bottom-left-radius: 9999px;
 }
 
-.border-red-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(153 27 27 / var(--tw-border-opacity));
-}
-
-.border-blue-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(30 64 175 / var(--tw-border-opacity));
-}
-
 .bg-limeBright {
   --tw-bg-opacity: 1;
   background-color: hsl(150 88% 59% / var(--tw-bg-opacity));
@@ -749,11 +701,6 @@ video {
 .bg-limeBrightSupLight {
   --tw-bg-opacity: 1;
   background-color: hsl(150 88% 95% / var(--tw-bg-opacity));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -785,6 +732,10 @@ video {
 
 .pb-6 {
   padding-bottom: 1.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -820,11 +771,6 @@ video {
   color: hsl(329 12% 61% / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-gray-800 {
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
@@ -840,27 +786,17 @@ video {
   color: hsl(329 12% 61% / var(--tw-text-opacity));
 }
 
-@media (min-width: 480px) {
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:mb-4 {
     margin-bottom: 1rem;
   }
 
+  .md\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .md\:block {
     display: block;
-  }
-
-  .md\:inline-block {
-    display: inline-block;
-  }
-
-  .md\:inline {
-    display: inline;
   }
 
   .md\:flex {
@@ -908,6 +844,10 @@ video {
     padding-bottom: 8rem;
   }
 
+  .md\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
@@ -915,16 +855,5 @@ video {
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 976px) {
-  .lg\:w-1\/2 {
-    width: 50%;
   }
 }
