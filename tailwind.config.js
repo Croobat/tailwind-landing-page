@@ -14,6 +14,8 @@ module.exports = {
         limeBrightLight: 'hsl(150, 88%, 69%)',
         limeBrightSupLight: 'hsl(150, 88%, 95%)',
         limePale: 'hsl(146, 100%, 96%)',
+        pinkBrightLight: 'hsl(335, 85%, 70%)',
+        pinkBright: 'hsl(335, 85%, 60%)',
         pinkDark: 'hsl(330, 39%, 23%)',
         pinkDarkGrayish: 'hsl(329, 12%, 61%)',
         pinkVeryDark: 'hsl(233, 12%, 13%)',
