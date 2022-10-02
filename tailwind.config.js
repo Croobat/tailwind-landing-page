@@ -18,7 +18,7 @@ module.exports = {
         pinkBright: 'hsl(335, 85%, 60%)',
         pinkDark: 'hsl(330, 39%, 23%)',
         pinkDarkGrayish: 'hsl(329, 12%, 61%)',
-        pinkVeryDark: 'hsl(233, 12%, 13%)',
+        pinkVeryDark: 'hsl(329, 12%, 13%)',
         grayVeryLight: 'hsl(0, 0%, 98%)',
       }
     },
